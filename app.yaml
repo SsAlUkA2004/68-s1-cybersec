@@ -1,6 +1,6 @@
 services:
   s1app:
-    image: dpage/pgadmin:latest
+    image: prawee/strapi:latest
     container_name: 68-s1-app
     ports:
       - ${APP_DATABASE_PORT}:1337"
