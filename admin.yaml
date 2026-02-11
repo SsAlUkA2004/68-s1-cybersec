@@ -1,6 +1,6 @@
 services:
   s1admin:
-    image: dpage/pgadmin:latest
+    image: dpage/pgadmin4:latest
     container_name: 68-s1-admin
     ports:
       - ${DATABASE_PORT}:80"
