@@ -29,3 +29,8 @@ docker compose -f admin.yaml up -d # background
 docker compose -f app.yaml up # monitoring
 docker compose -f app.yaml up -d # background
 ```
+
+## clear cache
+```sh
+docker compose -f app.yaml up --remove-orphans
+```
